@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940336679878",
+    "project_id": "lmsiti",
+    "storage_bucket": "lmsiti.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940336679878:android:d9445c6f66b1460a2fc0c7",
+        "android_client_info": {
+          "package_name": "com.medo.lms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOndpT-ncYueOK_Lul6LpzfCXAs8saP04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
