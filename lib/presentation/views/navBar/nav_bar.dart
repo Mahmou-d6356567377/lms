@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:lms/presentation/views/chats/chats_screen.dart';
 import 'package:lms/presentation/views/home/home.dart';
+import 'package:lms/presentation/views/profile/profile_screen.dart';
+import 'package:lms/presentation/views/tasks/tasks.dart';
 
 class NavBarScreen extends StatefulWidget {
   const NavBarScreen({super.key});
@@ -14,9 +17,9 @@ class _NavBarScreenState extends State<NavBarScreen> {
   // Replace these with your actual screen widgets
   final List<Widget> _screens = [
     HomeScreen(),
-    Center(child: Text('Tasks')),
-    Center(child: Text('Profile')),
-    Center(child: Text('Settings')),
+    Tasks(),
+    ChatsScreen(),
+    ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
@@ -45,12 +48,12 @@ class _NavBarScreenState extends State<NavBarScreen> {
             label: 'Tasks',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
+            icon: Icon(Icons.people),
+            label: 'chats',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Settings',
+            icon: Icon(Icons.person),
+            label: 'Profile',
           ),
         ],
       ),
